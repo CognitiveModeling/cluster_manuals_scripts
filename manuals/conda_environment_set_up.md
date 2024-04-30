@@ -1,4 +1,5 @@
 ### Set-up
+We use mamba instead of conda as this is a lot faster!
 
 1. Install mamba
 	1. download file: https://github.com/conda-forge/miniforge#mambaforge (Mac OS: brew install miniforge https://naolin.medium.com/conda-on-m1-mac-with-miniforge-bbc4e3924f2b ???)
