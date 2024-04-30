@@ -2,7 +2,7 @@
 We use mamba instead of conda as this is a lot faster!
 
 1. Install mamba
-	1. download file: https://github.com/conda-forge/miniforge#mambaforge (Mac OS: brew install miniforge https://naolin.medium.com/conda-on-m1-mac-with-miniforge-bbc4e3924f2b ???)
+	1. download file: https://github.com/conda-forge/miniforge#mambaforge
 	2. Use compute node for package installation: `srun --pty bash`
 	3. Install with `bash Miniforge3-Linux-x86_64.sh`
 	4. pick install directory to your work folder, your work directory is at `/mnt/qb/work/goswami/gkd...`
