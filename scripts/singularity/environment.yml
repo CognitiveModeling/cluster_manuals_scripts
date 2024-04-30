@@ -1,0 +1,21 @@
+name: your_environment_name
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu118
+      - torch
+      - torchvision
+      - torchaudio
+      - tensorboard
+      - lightning
+      - hydra-core
+      - einops
+      - zarr
+      - optuna
+      - opencv-python
+      - matplotlib
+      - seaborn
