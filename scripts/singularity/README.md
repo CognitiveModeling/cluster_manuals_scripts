@@ -1,6 +1,6 @@
 # Singularity
 
-This serves as an example of creating a Singularity container from an environment.yaml file. In this instance, the latex-full package is installed within the container. You can replace or add additional packages as necessary. This method allows you to utilize software on the cluster that typically requires root permissions for installation.
+This serves as an example of creating a Singularity container from an `environment.yaml` file. In this instance, the `texlive-full` package is installed within the container. You can replace or add additional packages as necessary. This method allows you to utilize software on the cluster that typically requires root permissions for installation.
 
 
 Create the singularity container:
