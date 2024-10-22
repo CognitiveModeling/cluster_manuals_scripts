@@ -5,7 +5,7 @@ We use mamba instead of conda as this is a lot faster!
 	1. download file: https://github.com/conda-forge/miniforge#mambaforge
 	2. Use compute node for package installation: `srun --pty bash`
 	3. Install with `bash Miniforge3-Linux-x86_64.sh`
-	4. pick install directory to your work folder, your work directory is at `/mnt/qb/work/goswami/gkd...`
+	4. pick install directory to your work folder, your work directory is at `/mnt/qb/work/butz`
 	5. Type yes to add mamba to .bashrc
 	6. If you already have a conda installation (not recommended but as is the case at the mlcloud slurm), delete conda sourcing in `~/.bashrc` file
 
